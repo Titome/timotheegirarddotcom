@@ -1,0 +1,40 @@
+@font-face {
+  font-family: fira-extraLight;
+  src: url(/static/main/font/FiraSans-ExtraLight.otf); }
+body {
+  background: url(/static/main/img/fond.jpg) center center no-repeat fixed;
+  background-size: cover;
+  font-family: fira-extraLight; }
+
+nav {
+  background-color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 1px;
+  padding-bottom: 7px;
+  display: inline-block;
+  position: absolute;
+  left: 25px;
+  bottom: 25px;
+  box-shadow: 5px 5px 6px black; }
+
+h2, h3 {
+  color: #D56235; }
+
+a {
+  color: black; }
+
+li.github {
+  list-style: url(/static/main/img/Octocat.png); }
+
+li.twitter {
+  list-style: url(/static/main/img/Twitter_logo_blue.png); }
+
+p.credit {
+  position: absolute;
+  right: 1px;
+  bottom: 0px; }
+  p.credit a {
+    color: white; }
+
+/*# sourceMappingURL=style.css.map */
